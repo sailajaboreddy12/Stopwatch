@@ -24,7 +24,7 @@ function Start() {
     check = true;
     check_for_start = true;
     event_value = setInterval(function(){
-        milliSeconds += 5;
+        milliSeconds += 10;
         if(milliSeconds === 1000) {
             milliSeconds = 0;
             seconds++;
